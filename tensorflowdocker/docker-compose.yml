@@ -1,0 +1,14 @@
+version: "3.2"
+
+services:
+  microservices:
+    build:
+      context: ./
+    container_name: mytensorflow
+    env_file:
+      - app/dev.env
+    restart: always
+    volumes:
+      - "./app:/usr/src/app:rw"
+    ports:
+      - "80:80"

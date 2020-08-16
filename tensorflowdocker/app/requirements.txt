@@ -1,0 +1,9 @@
+Flask==1.1.1
+Flask-RESTful==0.3.7
+requests==2.22.0
+tensorflow==2.2.0
+tensorflow-hub==0.8.0
+numpy==1.16.5
+python-dotenv
+elasticsearch==7.1.0
+elasticsearch-dsl==7.1.0
